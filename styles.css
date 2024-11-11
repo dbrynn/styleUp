@@ -1,0 +1,101 @@
+/* General Styles */
+.body-class {
+  background-color: #f5f5f5; /* Subtle background color */
+  font-family: Arial, sans-serif;
+  color: #333; /* Text color for readability */
+}
+
+/* Header */
+.header-class {
+  background-color: #333; /* Dark background */
+  color: #fff; /* Light font color for contrast */
+  padding: 20px;
+  text-align: center;
+}
+
+/* Navigation */
+.nav-class {
+  background-color: #444;
+  color: #fff;
+  padding: 10px;
+}
+
+.nav-link-class {
+  color: #fff;
+  text-decoration: none;
+  margin: 0 10px;
+}
+
+
+/* Titles */
+.title-class {
+  color: #2e86c1; /* Primary color for main title */
+}
+
+.section-title-class {
+  color: #5dade2; /* Slightly different shade for section titles */
+}
+
+/* Text */
+.text-class {
+  color: #555; /* Contrasting font color */
+}
+
+/* Image */
+.image-class {
+  border: 5px solid #ddd; /* Light border around images */
+  max-width: 100%; /* Scalable */
+  height: auto; /* Responsive */
+}
+
+/* Forms */
+.form-class {
+  background-color: #f9f9f9; /* Light background for forms */
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
+
+.input-class {
+  width: 100%;
+  padding: 10px;
+  margin: 5px 0 15px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.button-class {
+  background-color: #5dade2;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.button-class:hover {
+  background-color: #3498db; /* Slight color change on hover */
+}
+
+/* Footer */
+.footer-class {
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+  padding: 10px;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .header-class, .nav-class, .footer-class {
+    text-align: center;
+  }
+
+  .form-class, .text-class {
+    font-size: 14px; /* Smaller text for small screens */
+  }
+
+  .image-class {
+    width: 100%; /* Full-width images on smaller screens */
+  }
+}
